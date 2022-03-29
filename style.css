@@ -1,0 +1,109 @@
+* { padding: 0;
+	margin: 0;
+	border: mistyrose;
+}
+
+body {
+	background: rgb(230, 230, 230);
+	text-align: center;
+	font-family: Bitter;
+	animation: change-bg 4s infinite;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+img {
+	width: 150px;
+	border-radius: 200px;
+	margin-top: 30px;
+}
+
+.button {
+	background: rosybrown;
+	border-radius: 10px;
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	padding: 10px 10px;
+	margin: 24px;
+	padding-bottom: 15px;
+}
+
+a:hover {
+	background: black;
+	color: rosybrown;
+}
+
+.section {
+	background: white;
+	border-radius: 10px;
+	padding: 24px;
+	margin: 24px 0;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+.container{
+	border: 1px blueviolet;
+	width: 700px;
+	margin:0 auto ;
+}
+ .section:hover {
+ 	background:mistyrose;
+ }
+
+.follow{
+	margin-left: 40px;
+	background: none;
+	color: saddlebrown;
+
+}
+
+p {
+	margin: 32px 0;
+	font-size: 18px;
+
+}
+
+ol {
+	display: inline-flex;
+	margin-top: 30px;
+
+}
+
+li {
+	list-style: none;
+	
+}
+
+.icons{
+	color: white;
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+@keyframes change-bg {
+	0% {
+		background: mistyrose;
+	}
+	70% {
+		background: rosybrown;
+	}
+	100% {
+		background: mistyrose;
+	}
+}
+
+@media (max-width: 720px){
+	.container{
+		width: 90%;
+	}
+}
